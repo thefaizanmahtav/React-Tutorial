@@ -25,7 +25,7 @@ function App() {
       setCounter((PrivCounter) => PrivCounter + 1)
       setCounter((PrivCounter) => PrivCounter + 1)
       setCounter((PrivCounter) => PrivCounter + 1)
-      // in here setCounter always containing callBacks
+      // in here setCounter always containingcls callBacks
     }
   }
 
