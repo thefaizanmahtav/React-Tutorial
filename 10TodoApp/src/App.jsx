@@ -21,7 +21,7 @@ function App() {
   }
 
   const todoComplete = (id) => {
-    setTodos((prev) => prev.map((prevTodo) => prevTodo.id === id ? { ...prevTodo, completed: !prevTodo.completed } : prev))
+    setTodos((prev) => prev.map((prevTodo) => prevTodo.id === id ? { ...prevTodo, completed: !prevTodo.completed } : prevTodo))
   }
 
   useEffect(() => {
